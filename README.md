@@ -18,8 +18,10 @@ Make sure before deploying this project, you have installed docker image needed 
 Steps:
 1. Start Docker service on your machine
 2. In your terminal, execute the following commands
-`docker pull ptsdocker16/interview-test-server`
-`docker run --init -p 5000:5000 -it ptsdocker16/interview-test-server`
+```
+docker pull ptsdocker16/interview-test-server
+docker run --init -p 5000:5000 -it ptsdocker16/interview-test-server
+```
 3. Verify the backend is ready by visiting `http://localhost:5000/tax-calculator/brackets`
 
 ## Available Scripts
