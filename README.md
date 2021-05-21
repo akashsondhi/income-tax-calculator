@@ -9,8 +9,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Pre-requisite
 
 ### Node version
-Preferred version >= 10.14
-Update node version before setting up the application.
+Node version >= 10.14
+
+`node version` to check your local node version.
+
+Use `nvm` to update node version before setting up the application (if needed).
 
 ### Backend Service
 Make sure before deploying this project, you have installed docker image needed for the mock backend service. 
@@ -24,6 +27,14 @@ docker run --init -p 5000:5000 -it ptsdocker16/interview-test-server
 ```
 3. Verify the backend is ready by visiting `http://localhost:5000/tax-calculator/brackets`
 
+## Steps
+In your terminal
+```
+git clone https://github.com/akashsondhi/income-tax-calculator.git
+cd income-tax-calculator
+npm install
+npm start
+```
 ## Available Scripts
 
 In the project directory, you can run:
